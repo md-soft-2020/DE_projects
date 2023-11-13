@@ -86,6 +86,16 @@ songplay_table_query = """
 # INSERT RECORDS INTO TABLES
 
 
+artist_insert_records = """
+    INSERT INTO `Artists` (`artist_id`, `name`, `location`, `longetitude`, `latitude`)
+    VALUES 
+        ()
+
+
+
+
+    """
+
 
 
 
