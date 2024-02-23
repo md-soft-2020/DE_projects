@@ -1,0 +1,951 @@
+[2023-12-19T00:00:29.510+0000] {processor.py:157} INFO - Started process (PID=9554) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:00:29.512+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T00:00:29.515+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:00:29.515+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:00:29.526+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:00:29.523+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T00:00:29.527+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:00:29.549+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.043 seconds
+[2023-12-19T00:00:59.709+0000] {processor.py:157} INFO - Started process (PID=9562) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:00:59.710+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T00:00:59.714+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:00:59.713+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:00:59.721+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:00:59.720+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T00:00:59.722+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:00:59.746+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.043 seconds
+[2023-12-19T00:01:29.996+0000] {processor.py:157} INFO - Started process (PID=9570) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:01:29.997+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T00:01:30.000+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:01:30.000+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:01:30.010+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:01:30.008+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T00:01:30.011+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:01:30.036+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.044 seconds
+[2023-12-19T00:02:00.198+0000] {processor.py:157} INFO - Started process (PID=9578) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:02:00.200+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T00:02:00.204+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:02:00.204+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:02:00.216+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:02:00.213+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T00:02:00.217+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:02:00.241+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.047 seconds
+[2023-12-19T00:02:30.416+0000] {processor.py:157} INFO - Started process (PID=9586) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:02:30.417+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T00:02:30.421+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:02:30.421+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:02:30.431+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:02:30.429+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T00:02:30.432+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:02:30.457+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.045 seconds
+[2023-12-19T00:03:00.651+0000] {processor.py:157} INFO - Started process (PID=9594) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:03:00.653+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T00:03:00.658+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:03:00.657+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:03:00.672+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:03:00.670+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T00:03:00.673+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:03:00.705+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.059 seconds
+[2023-12-19T00:03:30.905+0000] {processor.py:157} INFO - Started process (PID=9602) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:03:30.907+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T00:03:30.910+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:03:30.910+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:03:30.921+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:03:30.919+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T00:03:30.922+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:03:30.945+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.044 seconds
+[2023-12-19T00:04:01.116+0000] {processor.py:157} INFO - Started process (PID=9610) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:04:01.117+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T00:04:01.121+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:04:01.121+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:04:01.131+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:04:01.129+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T00:04:01.132+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:04:01.156+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.044 seconds
+[2023-12-19T00:04:31.371+0000] {processor.py:157} INFO - Started process (PID=9618) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:04:31.373+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T00:04:31.376+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:04:31.376+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:04:31.389+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:04:31.387+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T00:04:31.390+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:04:31.421+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.056 seconds
+[2023-12-19T00:05:01.567+0000] {processor.py:157} INFO - Started process (PID=9626) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:05:01.568+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T00:05:01.572+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:05:01.572+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:05:01.583+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:05:01.580+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T00:05:01.584+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:05:01.609+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.049 seconds
+[2023-12-19T00:05:31.816+0000] {processor.py:157} INFO - Started process (PID=9634) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:05:31.817+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T00:05:31.821+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:05:31.820+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:05:31.833+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:05:31.831+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T00:05:31.834+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:05:31.859+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.049 seconds
+[2023-12-19T00:06:02.018+0000] {processor.py:157} INFO - Started process (PID=9642) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:06:02.020+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T00:06:02.024+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:06:02.023+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:06:02.034+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:06:02.032+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T00:06:02.035+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:06:02.059+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.045 seconds
+[2023-12-19T00:06:32.234+0000] {processor.py:157} INFO - Started process (PID=9650) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:06:32.236+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T00:06:32.239+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:06:32.239+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:06:32.248+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:06:32.246+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T00:06:32.248+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:06:32.270+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.040 seconds
+[2023-12-19T00:07:02.447+0000] {processor.py:157} INFO - Started process (PID=9658) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:07:02.448+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T00:07:02.452+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:07:02.451+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:07:02.466+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:07:02.463+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T00:07:02.466+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:07:02.491+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.049 seconds
+[2023-12-19T00:07:32.660+0000] {processor.py:157} INFO - Started process (PID=9666) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:07:32.662+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T00:07:32.665+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:07:32.665+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:07:32.674+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:07:32.672+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T00:07:32.675+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:07:32.699+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.042 seconds
+[2023-12-19T00:08:02.879+0000] {processor.py:157} INFO - Started process (PID=9674) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:08:02.880+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T00:08:02.885+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:08:02.884+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:08:02.895+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:08:02.893+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T00:08:02.896+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:08:02.920+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.045 seconds
+[2023-12-19T00:08:33.083+0000] {processor.py:157} INFO - Started process (PID=9682) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:08:33.084+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T00:08:33.088+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:08:33.088+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:08:33.096+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:08:33.094+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T00:08:33.097+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:08:33.127+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.048 seconds
+[2023-12-19T00:09:03.271+0000] {processor.py:157} INFO - Started process (PID=9690) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:09:03.273+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T00:09:03.277+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:09:03.277+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:09:03.284+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:09:03.282+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T00:09:03.286+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:09:03.314+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.047 seconds
+[2023-12-19T00:09:33.582+0000] {processor.py:157} INFO - Started process (PID=9698) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:09:33.583+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T00:09:33.586+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:09:33.585+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:09:33.595+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:09:33.593+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T00:09:33.596+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:09:33.622+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.048 seconds
+[2023-12-19T00:10:03.811+0000] {processor.py:157} INFO - Started process (PID=9706) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:10:03.813+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T00:10:03.817+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:10:03.816+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:10:03.828+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:10:03.826+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T00:10:03.829+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:10:03.853+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.047 seconds
+[2023-12-19T00:10:34.060+0000] {processor.py:157} INFO - Started process (PID=9714) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:10:34.061+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T00:10:34.064+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:10:34.064+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:10:34.074+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:10:34.071+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T00:10:34.075+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:10:34.099+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.044 seconds
+[2023-12-19T00:11:04.286+0000] {processor.py:157} INFO - Started process (PID=9722) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:11:04.288+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T00:11:04.292+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:11:04.291+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:11:04.301+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:11:04.299+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T00:11:04.303+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:11:04.328+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.046 seconds
+[2023-12-19T00:11:34.506+0000] {processor.py:157} INFO - Started process (PID=9731) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:11:34.507+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T00:11:34.511+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:11:34.511+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:11:34.523+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:11:34.520+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T00:11:34.524+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:11:34.548+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.046 seconds
+[2023-12-19T00:12:04.768+0000] {processor.py:157} INFO - Started process (PID=9739) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:12:04.770+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T00:12:04.774+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:12:04.774+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:12:04.782+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:12:04.780+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T00:12:04.783+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:12:04.807+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.046 seconds
+[2023-12-19T00:12:34.992+0000] {processor.py:157} INFO - Started process (PID=9746) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:12:34.994+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T00:12:34.999+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:12:34.998+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:12:35.009+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:12:35.007+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T00:12:35.010+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:12:35.037+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.049 seconds
+[2023-12-19T00:13:05.191+0000] {processor.py:157} INFO - Started process (PID=9754) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:13:05.193+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T00:13:05.197+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:13:05.197+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:13:05.206+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:13:05.205+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T00:13:05.207+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:13:05.230+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.044 seconds
+[2023-12-19T00:13:35.417+0000] {processor.py:157} INFO - Started process (PID=9762) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:13:35.419+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T00:13:35.422+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:13:35.422+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:13:35.432+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:13:35.430+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T00:13:35.433+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:13:35.460+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.048 seconds
+[2023-12-19T00:14:05.620+0000] {processor.py:157} INFO - Started process (PID=9770) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:14:05.622+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T00:14:05.626+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:14:05.626+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:14:05.634+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:14:05.632+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T00:14:05.635+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:14:05.662+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.046 seconds
+[2023-12-19T00:14:35.878+0000] {processor.py:157} INFO - Started process (PID=9778) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:14:35.880+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T00:14:35.885+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:14:35.885+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:14:35.894+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:14:35.892+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T00:14:35.895+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:14:35.919+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.045 seconds
+[2023-12-19T00:15:06.137+0000] {processor.py:157} INFO - Started process (PID=9786) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:15:06.138+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T00:15:06.142+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:15:06.142+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:15:06.152+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:15:06.151+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T00:15:06.154+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:15:06.179+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.046 seconds
+[2023-12-19T00:15:36.374+0000] {processor.py:157} INFO - Started process (PID=9794) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:15:36.376+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T00:15:36.380+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:15:36.380+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:15:36.390+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:15:36.387+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T00:15:36.391+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:15:36.420+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.050 seconds
+[2023-12-19T00:16:06.572+0000] {processor.py:157} INFO - Started process (PID=9802) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:16:06.573+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T00:16:06.577+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:16:06.577+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:16:06.585+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:16:06.584+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T00:16:06.586+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:16:06.617+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.051 seconds
+[2023-12-19T00:16:36.690+0000] {processor.py:157} INFO - Started process (PID=9811) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:16:36.692+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T00:16:36.696+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:16:36.696+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:16:36.706+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:16:36.704+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T00:16:36.707+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:16:36.730+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.043 seconds
+[2023-12-19T00:17:06.898+0000] {processor.py:157} INFO - Started process (PID=9819) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:17:06.900+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T00:17:06.906+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:17:06.905+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:17:06.919+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:17:06.914+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T00:17:06.921+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:17:06.958+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.064 seconds
+[2023-12-19T00:17:37.144+0000] {processor.py:157} INFO - Started process (PID=9827) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:17:37.146+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T00:17:37.150+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:17:37.150+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:17:37.162+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:17:37.159+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T00:17:37.163+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:17:37.188+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.051 seconds
+[2023-12-19T00:22:35.983+0000] {processor.py:157} INFO - Started process (PID=9835) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:22:35.990+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T00:22:36.031+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:22:36.030+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:22:36.192+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:22:36.186+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T00:22:36.194+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:22:36.382+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.414 seconds
+[2023-12-19T00:23:28.649+0000] {processor.py:157} INFO - Started process (PID=9844) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:54:20.335+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T00:54:20.390+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:54:20.388+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:54:20.607+0000] {logging_mixin.py:154} INFO - [2023-12-19T00:54:20.487+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T00:54:20.609+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T00:54:21.368+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 1857.376 seconds
+[2023-12-19T02:18:43.964+0000] {processor.py:157} INFO - Started process (PID=9859) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T02:18:43.969+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T02:18:44.022+0000] {logging_mixin.py:154} INFO - [2023-12-19T02:18:44.021+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T02:18:44.077+0000] {logging_mixin.py:154} INFO - [2023-12-19T02:18:44.067+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T02:18:44.080+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T02:18:44.169+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.225 seconds
+[2023-12-19T03:19:45.164+0000] {processor.py:157} INFO - Started process (PID=9860) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T03:19:45.166+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T03:19:45.212+0000] {logging_mixin.py:154} INFO - [2023-12-19T03:19:45.212+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T03:19:45.421+0000] {logging_mixin.py:154} INFO - [2023-12-19T03:19:45.372+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T03:19:45.422+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T03:19:45.606+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.462 seconds
+[2023-12-19T04:20:48.377+0000] {processor.py:157} INFO - Started process (PID=9874) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T04:20:48.386+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T04:20:48.403+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:20:48.402+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T04:20:48.444+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:20:48.439+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T04:20:48.447+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T04:20:48.558+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.299 seconds
+[2023-12-19T05:21:50.209+0000] {processor.py:157} INFO - Started process (PID=9875) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:21:50.215+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T05:21:50.223+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:21:50.222+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:21:50.358+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:21:50.349+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T05:21:50.359+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:21:51.099+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 3620.028 seconds
+[2023-12-19T05:36:45.220+0000] {processor.py:157} INFO - Started process (PID=9882) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:36:46.111+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T05:36:46.316+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:36:46.314+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:36:48.467+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:36:48.464+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T05:36:48.471+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:37:19.604+0000] {processor.py:157} INFO - Started process (PID=9897) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:37:19.685+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T05:37:19.691+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:37:19.689+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:37:19.921+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:37:19.919+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T05:37:19.923+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:37:20.122+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.549 seconds
+[2023-12-19T05:37:50.651+0000] {processor.py:157} INFO - Started process (PID=9905) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:37:50.653+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T05:37:50.657+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:37:50.657+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:37:50.669+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:37:50.667+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T05:37:50.671+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:37:50.712+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.068 seconds
+[2023-12-19T05:38:20.867+0000] {processor.py:157} INFO - Started process (PID=9913) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:38:20.868+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T05:38:20.872+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:38:20.871+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:38:20.883+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:38:20.881+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T05:38:20.884+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:38:20.909+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.048 seconds
+[2023-12-19T05:38:51.104+0000] {processor.py:157} INFO - Started process (PID=9921) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:38:51.105+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T05:38:51.108+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:38:51.108+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:38:51.119+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:38:51.116+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T05:38:51.120+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:38:51.144+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.044 seconds
+[2023-12-19T05:39:21.374+0000] {processor.py:157} INFO - Started process (PID=9929) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:39:21.375+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T05:39:21.380+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:39:21.379+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:39:21.390+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:39:21.388+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T05:39:21.391+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:39:21.421+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.053 seconds
+[2023-12-19T05:39:51.647+0000] {processor.py:157} INFO - Started process (PID=9937) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:39:51.648+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T05:39:51.651+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:39:51.651+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:39:51.659+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:39:51.658+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T05:39:51.660+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:39:51.685+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.042 seconds
+[2023-12-19T05:40:21.955+0000] {processor.py:157} INFO - Started process (PID=9945) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:40:21.957+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T05:40:21.960+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:40:21.959+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:40:21.975+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:40:21.972+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T05:40:21.976+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:40:22.006+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.055 seconds
+[2023-12-19T05:40:52.214+0000] {processor.py:157} INFO - Started process (PID=9953) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:40:52.215+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T05:40:52.219+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:40:52.218+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:40:52.229+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:40:52.227+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T05:40:52.230+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:40:52.258+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.049 seconds
+[2023-12-19T05:41:22.443+0000] {processor.py:157} INFO - Started process (PID=9961) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:41:22.453+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T05:41:22.469+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:41:22.468+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:41:22.488+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:41:22.477+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T05:41:22.489+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:41:22.533+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.095 seconds
+[2023-12-19T05:41:52.631+0000] {processor.py:157} INFO - Started process (PID=9969) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:41:52.632+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T05:41:52.636+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:41:52.635+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:41:52.648+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:41:52.646+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T05:41:52.650+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:41:52.680+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.055 seconds
+[2023-12-19T05:42:22.842+0000] {processor.py:157} INFO - Started process (PID=9977) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:42:22.844+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T05:42:22.849+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:42:22.848+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:42:22.859+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:42:22.856+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T05:42:22.860+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:42:22.885+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.047 seconds
+[2023-12-19T05:42:53.096+0000] {processor.py:157} INFO - Started process (PID=9985) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:42:53.097+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T05:42:53.102+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:42:53.102+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:42:53.112+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:42:53.110+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T05:42:53.113+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:42:53.140+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.050 seconds
+[2023-12-19T05:43:23.315+0000] {processor.py:157} INFO - Started process (PID=9994) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:43:23.317+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T05:43:23.324+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:43:23.323+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:43:23.341+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:43:23.337+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T05:43:23.342+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:43:23.374+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.065 seconds
+[2023-12-19T05:43:53.542+0000] {processor.py:157} INFO - Started process (PID=10002) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:43:53.544+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T05:43:53.547+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:43:53.547+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:43:53.555+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:43:53.553+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T05:43:53.556+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:43:53.584+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.045 seconds
+[2023-12-19T05:44:23.769+0000] {processor.py:157} INFO - Started process (PID=10010) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:44:23.771+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T05:44:23.776+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:44:23.776+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:44:23.788+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:44:23.785+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T05:44:23.790+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:44:23.825+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.061 seconds
+[2023-12-19T05:44:54.078+0000] {processor.py:157} INFO - Started process (PID=10018) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:44:54.079+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T05:44:54.084+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:44:54.083+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:44:54.095+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:44:54.093+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T05:44:54.097+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:44:54.131+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.059 seconds
+[2023-12-19T05:45:24.267+0000] {processor.py:157} INFO - Started process (PID=10026) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:45:24.269+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T05:45:24.273+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:45:24.273+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:45:24.284+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:45:24.282+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T05:45:24.286+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:45:24.310+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.047 seconds
+[2023-12-19T05:45:54.503+0000] {processor.py:157} INFO - Started process (PID=10034) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:45:54.504+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T05:45:54.508+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:45:54.508+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:45:54.517+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:45:54.515+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T05:45:54.518+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:45:54.541+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.042 seconds
+[2023-12-19T05:46:24.706+0000] {processor.py:157} INFO - Started process (PID=10042) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:46:24.708+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T05:46:24.711+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:46:24.711+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:46:24.720+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:46:24.719+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T05:46:24.721+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:46:24.743+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.041 seconds
+[2023-12-19T05:46:54.961+0000] {processor.py:157} INFO - Started process (PID=10050) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:46:54.963+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T05:46:54.968+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:46:54.968+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:46:54.978+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:46:54.976+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T05:46:54.980+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:46:55.013+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.056 seconds
+[2023-12-19T05:47:25.176+0000] {processor.py:157} INFO - Started process (PID=10058) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:47:25.178+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T05:47:25.183+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:47:25.183+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:47:25.193+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:47:25.191+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T05:47:25.194+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:47:25.230+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.061 seconds
+[2023-12-19T05:47:55.429+0000] {processor.py:157} INFO - Started process (PID=10066) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:47:55.432+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T05:47:55.438+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:47:55.437+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:47:55.456+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:47:55.453+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T05:47:55.461+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:47:55.518+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.097 seconds
+[2023-12-19T05:48:25.629+0000] {processor.py:157} INFO - Started process (PID=10074) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:48:25.631+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T05:48:25.636+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:48:25.636+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:48:25.648+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:48:25.645+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T05:48:25.649+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:48:25.679+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.056 seconds
+[2023-12-19T05:48:55.923+0000] {processor.py:157} INFO - Started process (PID=10082) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:48:55.925+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T05:48:55.931+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:48:55.931+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:48:55.945+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:48:55.942+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T05:48:55.947+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:48:55.970+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.057 seconds
+[2023-12-19T05:49:26.118+0000] {processor.py:157} INFO - Started process (PID=10090) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:49:26.119+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T05:49:26.123+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:49:26.123+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:49:26.132+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:49:26.130+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T05:49:26.133+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:49:26.154+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.041 seconds
+[2023-12-19T05:49:56.376+0000] {processor.py:157} INFO - Started process (PID=10098) to work on /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:49:56.378+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/main_de_project_1_dag.py for tasks to queue
+[2023-12-19T05:49:56.382+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:49:56.382+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:49:56.395+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:49:56.393+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/main_de_project_1_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_de_project_1_dag.py", line 9, in <module>
+    from create_tables import *
+ModuleNotFoundError: No module named 'create_tables'
+[2023-12-19T05:49:56.397+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/main_de_project_1_dag.py
+[2023-12-19T05:49:56.419+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/main_de_project_1_dag.py took 0.048 seconds
